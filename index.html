@@ -9,85 +9,30 @@
   </head>
   <body>
 
-    <form action="index.html" method="post">
-      <input type="text" id="sourceMP3" placeholder="add mp3">
-      <audio id="">
-        <source src="" type="audio/mp3"></source>
-      </audio>
-      <input type="text" id="sourceImg" placeholder="add album image">
-      <input type="text" id="captionText" placeholder="add caption">
-      <button type="submit" id="submit" name="submit">SUBMIT</button>
-    </form>
-
     <div id="jukebox">
-      <div id="musicPlayer1">
-        <audio id="audio1">
-          <source id="addAudio1" src="" type="audio/mp3"></source>
+
+        <audio id="audio">
+          <source id="addAudio" src="" type="audio/mp3"></source>
         </audio>
 
-        <div id="album1">
+        <div id="album">
         </div>
 
-        <p>Classical</p>
+        <h2 id="title">Jeanette's Jukebox</h2>
 
-        <div id="musicCtrls1">
-          <button class="playBtn" id="playBtn1" type="play" name="play"></button>
+        <div id="musicCtrls">
 
-          <button class="pauseBtn" id="pauseBtn1" type="pause" name="pause"></button>
-        </div>
+          <button id="backBtn" type="back" name="back"></button>
+
+          <button id="playBtn" type="play" name="play"></button>
+
+          <button id="pauseBtn" type="pause" name="pause"></button>
+
+          <button id="stopBtn" type="stop" name="stop"></button>
+
+          <button id="nextBtn" type="forward" name="forward"></button>
+
       </div>
-
-      <div id="musicPlayer2">
-        <audio id="audio2">
-          <source id="addAudio2" src="" type="audio/mp3"></source>
-        </audio>
-
-        <div id="album2">
-        </div>
-
-        <p>Jazz</p>
-
-        <div id="musicCtrls2">
-          <button class="playBtn" id="playBtn2" type="play" name="play"></button>
-
-          <button class="pauseBtn" id="pauseBtn2" type="pause" name="pause"></button>
-        </div>
-      </div>
-
-      <div id="musicPlayer3">
-        <audio id="audio3">
-          <source id="addAudio3" src="" type="audio/mp3"></source>
-        </audio>
-
-        <div id="album3">
-        </div>
-
-        <p>Halloween</p>
-
-        <div id="musicCtrls3">
-          <button class="playBtn" id="playBtn3" type="play" name="play"></button>
-
-          <button class="pauseBtn" id="pauseBtn3" type="pause" name="pause"></button>
-        </div>
-      </div>
-
-      <div id="musicPlayer4">
-        <audio id="audio4">
-          <source id="addAudio4" src="" type="audio/mp3"></source>
-        </audio>
-
-        <div id="album4">
-        </div>
-        <p>Christmas</p>
-
-        <div id="musicCtrls4">
-          <button class="playBtn" id="playBtn4" type="play" name="play"></button>
-
-          <button class="pauseBtn" id="pauseBtn4" type="pause" name="pause"></button>
-        </div>
-      </div>
-    </div>
-
 
     <script type="text/javascript" src="basic.js"></script>
 
